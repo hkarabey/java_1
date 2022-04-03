@@ -8,6 +8,7 @@ public class Student {
     private String grade;
     private String schoolName;
 
+
     public String  getName() {
         return name;
     }
