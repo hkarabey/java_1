@@ -7,6 +7,8 @@ public class Student {
     private char gender;
     private String grade;
     private String schoolName;
+    public static boolean isStudent=true;
+    public static boolean isHuman=true;
 
 
     public String  getName() {
@@ -66,10 +68,28 @@ public class Student {
 
     }
 
-    public Student(String name, int age, char gender, String grade) {
+    public void study(){
+        System.out.println(name+" is studying");
+    }
+
+    public Student(String name, int age, char gender, String grade,String schoolName) {
         setName(name);
         setAge(age);
         setGender(gender);
         setGrade(grade);
+        setSchool(schoolName);
     }
+
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", grade='" + grade + '\'' +
+                ", schoolName='" + schoolName + '\'' +
+                '}';
+
+    }
+
+
 }
