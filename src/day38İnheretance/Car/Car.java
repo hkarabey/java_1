@@ -9,8 +9,8 @@ public class Car {
     public String color;
     public int miles;
 
-    public void start(){
-        System.out.println(brand+model+" is started");
+     void start(){
+        System.out.println(brand+" "+model+" is started");
     }
     public void drive(){
         System.out.println(brand+model+ "is driven");

@@ -13,7 +13,10 @@ public class ParkingLot {
         System.out.println(tesla);
         System.out.println(toyota);
         System.out.println(bmw);
-
+        System.out.println("------------------");
+        toyota.start();
+        bmw.start();
+        tesla.start();
 
     }
 }
