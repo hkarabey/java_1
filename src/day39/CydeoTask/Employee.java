@@ -15,7 +15,7 @@ public class Employee extends Person {
     }
 
     public void setJobTıtle(String jobTıtle) {
-        if (!jobTıtle.equals("SDET")) {
+        if (!(jobTıtle.equals("sdet")||jobTıtle.equals("developer")||jobTıtle.equals("teacher"))) {
             System.out.println("invalid jobtitle");
             System.exit(1);
         }
