@@ -1,6 +1,9 @@
 package day41Exeptions;
 
 public class FinallyBlock {
+    public FinallyBlock() {
+    }
+
     public static void main(String[] args) {
 
         int[]arr={1,2,3,4,5};
@@ -11,6 +14,7 @@ public class FinallyBlock {
         }catch (RuntimeException e){
             System.out.println("catch block");
             e.printStackTrace();
+            //System.exit(1);
         }finally {
             System.out.println("finally block");
 
