@@ -52,7 +52,7 @@ public class TryCatchBlocks {
 
 
         try {
-            Thread.sleep(300);
+            Thread.sleep(3000);
         }catch (InterruptedException e){
             e.printStackTrace();
         }
