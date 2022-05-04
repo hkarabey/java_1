@@ -20,6 +20,9 @@ public final class Tester extends Employee {
         System.out.println(getName() + " is sleeping");
 
     }
+    public void bugreport(){
+        System.out.println(getName()+" is reporting bug");
+    }
 
     public String toString() {
         return "Tester{" +
