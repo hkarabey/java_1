@@ -3,7 +3,7 @@ package day36Inheritance.encapsulatıon;
 public class Student {
 
     private String name;
-    private int age;
+    private  int age;
     private char gender;
     private String grade;
     private String schoolName;
@@ -17,6 +17,13 @@ public class Student {
 
     public int getAge() {
         return age;
+    }
+    public void setAge(int age) {
+        if (age<5||age>90){
+            return;
+        }
+        this.age = age;
+
     }
 
     public char getGender() {
@@ -38,13 +45,6 @@ public class Student {
 
     }
 
-    public void setAge(int age) {
-        if (age<5||age>90){
-            return;
-        }
-        this.age = age;
-
-    }
 
     public void setGender(char gender) {
         if (!(gender=='m'||gender=='f')){

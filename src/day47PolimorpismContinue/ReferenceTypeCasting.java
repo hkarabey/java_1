@@ -53,7 +53,7 @@ public class ReferenceTypeCasting {
 
         s1.perimeter();
         s1.area();
-      // ((Cube) s1).volume(); //circle is no relationship with cube it is not true way to casting
+       // ((Cube) s1).volume(); //circle is no relationship with cube it is not true way to casting
 
 
     }
