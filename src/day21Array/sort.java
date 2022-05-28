@@ -19,7 +19,7 @@ public class sort {
 
         while (true) {
 
-            int min = newA.get(0);
+            int min = Integer.MAX_VALUE;
 
             for (int i = 0; i < newA.size(); i++) {
                 if (newA.get(i) < min) {
